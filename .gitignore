@@ -1,0 +1,13 @@
+.vs
+Uni-Computer.Common/obj
+Uni-Computer.Common/bin
+Uni-Computer.Data/obj
+Uni-Computer.Data/bin
+Uni-Computer.Infrastructure/obj
+Uni-Computer.Infrastructure/bin
+Uni-Computer.Persentation/obj
+Uni-Computer.Persentation/bin
+Uni-Computer.Repo/obj
+Uni-Computer.Repo/bin
+Uni-Computer.Services/obj
+Uni-Computer.Services/bin
