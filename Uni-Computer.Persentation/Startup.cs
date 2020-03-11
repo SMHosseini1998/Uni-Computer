@@ -26,6 +26,7 @@ namespace Uni_Computer.Persentation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,7 +36,7 @@ namespace Uni_Computer.Persentation
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseHttpsRedirection();
 
             app.UseRouting();
